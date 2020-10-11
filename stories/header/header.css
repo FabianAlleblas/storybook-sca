@@ -1,0 +1,31 @@
+.main-header {
+  background-image: url(../assets/background_shape_1-line.svg);
+  background-size: cover;
+  color: var(--darkblue);
+  flex-direction: column;
+  height: 60px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 100;
+  max-width: 350px; /* for storybook */
+}
+
+.header-80 {
+  background-image: url(../assets/background_shape_2-lines.svg);
+  height: 80px;
+}
+
+.header__heading {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header__subheading {
+  color: var(--midblue);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+}

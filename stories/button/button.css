@@ -1,0 +1,27 @@
+.button {
+  background-color: var(--darkorange);
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px 0;
+  width: 100%;
+  max-width: 200px; /*for storybook*/
+}
+
+.btn-200 {
+  width: 200px;
+}
+
+.plain {
+  background-color: white;
+  box-shadow: none;
+  color: var(--darkblue);
+  width: 100%;
+}
+
+/* for storybook */
+.button:hover {
+  cursor: pointer;
+}
